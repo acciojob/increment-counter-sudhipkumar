@@ -2,6 +2,6 @@
 let counter = 0;
 
 document.getElementById('incrementBtn').addEventListener('click', function() {
-    alert("Current Counter Value: " + counter);
+    alert(counter);
     document.getElementById('counter').textContent = ++counter;
 });
