@@ -2,7 +2,7 @@
 let counter = 0;
         
         document.getElementById('incrementBtn').addEventListener('click', function() {
-            alert("Previous Counter Value: " + counter);
             counter++;
+            alert("Current Counter Value: " + counter);
             document.getElementById('counter').textContent = counter;
         });
