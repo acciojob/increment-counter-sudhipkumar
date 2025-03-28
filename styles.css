@@ -4,10 +4,12 @@
             text-align: center;
             margin-top: 50px;
         }
+
         #counter {
             font-size: 24px;
             margin: 20px;
         }
+
         button {
             padding: 10px 20px;
             font-size: 18px;
